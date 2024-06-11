@@ -3,7 +3,7 @@
 # 🧩 Problem-1
 
 ### Write A Program To Read a Number And Check If It Is Palindrome? 
-> [!NOTE] **Important:** Palindrome Is a Number That Reads The Same From Right To Left.
+> [!NOTE]\ **Important:** Palindrome Is a Number That Reads The Same From Right To Left.
 ```cpp
 #include <iostream>
 using namespace std;
