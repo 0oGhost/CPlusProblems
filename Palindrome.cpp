@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-enum enPalindrome { IsPalindrome = 1, NotPalindrome = 0 };
-
 int ReadPositiveNumber(string Massage)
 {
 	int Number;
@@ -28,15 +26,15 @@ int ReverseNumber(int Number)
 	return NumberTwo;
 }
 
-bool CheckPalindromeNumber(int Number, int ReversedNumber)
+bool IsPalindrome(int Number)
 {
-	return Number == ReversedNumber;
+	return Number == ReverseNumber(Number);
 }
 
 void PrintResult(int Number)
 {
 	int ReversedNumber = ReverseNumber(Number);
-	if (CheckPalindromeNumber(Number, ReversedNumber) == IsPalindrome)
+	if (IsPalindrome(Number))
 		cout << " Yes, It Is a Palindrome Number.\n";
 	else
 		cout << " No, It Is NOT a Palindrome Number.\n";
