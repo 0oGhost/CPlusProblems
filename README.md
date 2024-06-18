@@ -53,3 +53,45 @@ int main()
 	return 0;
 }
 ```
+# 🧩 Problem-1
+
+### Write A Program To Read a Number And Print Inverted Pattern As Follows ?
+> [!NOTE]\
+> The solve Number one.
+```cpp
+#include <iostream>
+using namespace std;
+
+int ReadPositiveNumber(string Massage)
+{
+	int Number;
+	do
+	{
+		cout << Massage;
+		cin >> Number;
+	} while (Number <= 0);
+	return Number;
+}
+ 
+void NumberPattern(int Number)
+{
+	short Num = Number;
+	for (short i = 1; i <= Number; i++)
+	{
+		for (short j = 1; j <= Num; j++)
+		{
+			cout << Num;
+		}
+		Num--;
+		cout << endl;
+	}
+}
+
+int main()
+{
+	short Number = ReadPositiveNumber("Number? ");
+	NumberPattern(Number);
+	return 0;
+}
+```
+
