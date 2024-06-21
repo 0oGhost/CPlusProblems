@@ -75,7 +75,7 @@ int ReadPositiveNumber(string Massage)
 	return Number;
 }
  
-void NumberPattern(int Number)
+void PrintInvertedNumberPattern(int Number)
 {
 	short Num = Number;
 	for (short i = 1; i <= Number; i++)
@@ -92,7 +92,7 @@ void NumberPattern(int Number)
 int main()
 {
 	short Number = ReadPositiveNumber("Number? ");
-	NumberPattern(Number);
+	PrintInvertedNumberPattern(Number);
 	return 0;
 }
 ```
@@ -113,7 +113,7 @@ int ReadPositiveNumber(string Massage)
 	return Number;
 }
 
-void NumberPattern(int Number)
+void  PrintInvertedNumberPattern(int Number)
 {
 	for (short i = Number; i >= 1; i--)
 	{
@@ -126,7 +126,7 @@ void NumberPattern(int Number)
 int main()
 {
 	short Number = ReadPositiveNumber("Number? ");
-	NumberPattern(Number);
+	 PrintInvertedNumberPattern(Number);
 	return 0;
 }
 ```
