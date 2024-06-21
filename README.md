@@ -2,7 +2,7 @@
 
 ### 👋 Hi
 ---
-# 🧩 Problem-1
+# 🧩 Problem - 1
 
 ### Write A Program To Read a Number And Check If It Is Palindrome? 
 > [!NOTE]\
@@ -55,8 +55,11 @@ int main()
 	return 0;
 }
 ```
-## 🧩 Problem-2
+
+## 🧩 Problem - 2
+
 ---
+
 ### Write A Program To Read a Number And Print Inverted Pattern As Follows ?
 > [!NOTE]\
 > The solve Number one.
