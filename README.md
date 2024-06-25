@@ -134,13 +134,17 @@ int main()
 }
 ```
 
+## 🧩 Problem - 3
+
+---
+
 ### Write A Program To Print All Words From AAA To ZZZ ?
 > [!NOTE]\
 > Output\
-> AAA
-> AAB
-> ...
-> ...
+> AAA\
+> AAB\
+> ...\
+> ...\
 > ZZZ
 
 ```cpp
