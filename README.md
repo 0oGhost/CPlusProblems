@@ -58,8 +58,6 @@ int main()
 
 ## 🧩 Problem - 2
 
----
-
 ### Write A Program To Read a Number And Print Inverted Pattern As Follows ?
 > [!NOTE]\
 > The solve Number one.
@@ -136,7 +134,6 @@ int main()
 
 ## 🧩 Problem - 3
 
----
 
 ### Write A Program To Print All Words From AAA To ZZZ ?
 > [!NOTE]\
