@@ -136,7 +136,7 @@ int main()
 
 ### Write A Program To Print All Words From AAA To ZZZ ?
 > [!NOTE]\
-> Output
+> Output\
 > AAA
 > AAB
 > ...
