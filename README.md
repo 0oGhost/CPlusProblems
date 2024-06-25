@@ -143,8 +143,8 @@ int main()
 > Output\
 > AAA\
 > AAB\
-> ...\
-> ...\
+> . . .\
+> . . .\
 > ZZZ
 
 ```cpp
